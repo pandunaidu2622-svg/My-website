@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
+    <title>Pandu's Website</title>
 </head>
 <body>
     <h1>Welcome to My Website</h1>
-    <p>This website was created by me.</p>
+    <p>Hello! My name is Pandu.</p>
+    <p>This is my first website published on GitHub Pages.</p>
 </body>
 </html>
