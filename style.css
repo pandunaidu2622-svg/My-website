@@ -1,68 +1,67 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    text-align: center;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+
+```
+background-image: url('company logo.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+color: white;
+```
+
 }
 
-.hero {
-    position: relative;
+.overlay {
+background: rgba(0,0,0,0.6);
+min-height: 100vh;
+padding: 20px;
 }
 
-.banner {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
+h1 {
+text-align: center;
+font-size: 60px;
+margin-top: 50px;
 }
 
-.hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-shadow: 2px 2px 10px black;
-}
-
-.hero-text h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
-}
-
-.hero-text p {
-    font-size: 24px;
-}
-
-.btn {
-    display: inline-block;
-    background: green;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
+.tagline {
+text-align: center;
+font-size: 24px;
+margin-bottom: 40px;
 }
 
 nav {
-    background: #0066cc;
-    padding: 15px;
+text-align: center;
+margin-bottom: 40px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px;
-    font-weight: bold;
+color: white;
+text-decoration: none;
+margin: 15px;
+font-size: 18px;
 }
 
-section {
-    padding: 40px;
+.container {
+max-width: 900px;
+margin: auto;
+text-align: center;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.section {
+background: rgba(255,255,255,0.15);
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
 }
 
-h2 {
-    color: #0066cc;
+.btn {
+background: green;
+color: white;
+padding: 12px 25px;
+text-decoration: none;
+border-radius: 5px;
 }
